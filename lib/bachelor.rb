@@ -1,7 +1,8 @@
 def get_first_name_of_season_winner(data, season)
+  winner_name = nil
   data.each do |szn, person_hash|
     person_hash.each do |attribute, value|
-      attribute[:"name"]
+      winner_name = attribute[:"name"] if season = szn
       
     
 end
