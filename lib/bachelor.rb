@@ -3,7 +3,7 @@ def get_first_name_of_season_winner(data, season)
   data.each do |szn, person_hash|
     next unless season = szn
     person_hash.each do |person|
-      winner_name = person["name"] if person["status"] = "winner"
+      winner_name = person["name"] if person["status"] = "Winner"
     end
   end
   winner_name
