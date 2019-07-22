@@ -1,6 +1,6 @@
 def get_first_name_of_season_winner(data, season)
   data[season].each do |person_hash|
-   if person_hash["status"] = "Winner"
+   if person_hash["status"] == "Winner"
      return person_hash["name"].split()[0]
    end
  end
