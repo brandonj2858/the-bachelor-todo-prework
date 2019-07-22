@@ -43,10 +43,5 @@ end
 def get_average_age_for_season(data, season)
   total_age = 0
   num_of_people = 0
-  data[season].each do |person_hash|
-    total_age += person_hash[:age].to_i
-    num_of_people += 1
-  end
-  total_age / num_of_people.
-end
+  data[season].each do 
  
