@@ -11,6 +11,7 @@ def get_contestant_name(data, occupation)
   data.each do |szn, person_hash|
     person_hash.each do |person_hash|
       if person_hash["occupation"] = occupation
+        
  
 
 def count_contestants_by_hometown(data, hometown)
