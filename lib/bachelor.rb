@@ -4,6 +4,9 @@ def get_first_name_of_season_winner(data, season)
     next unless season = szn
     person_hash.each do |person|
       winner_name = person["name"] if person["status"] = "winner"
+    end
+  end
+  winner_name
 end
 
 
