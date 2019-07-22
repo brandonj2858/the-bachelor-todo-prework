@@ -5,7 +5,6 @@ def get_first_name_of_season_winner(data, season)
       winner_name = attribute[:"name"] if season = szn
     end
   end
-  return winner_name
 end
 
 
