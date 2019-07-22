@@ -1,12 +1,9 @@
 def get_first_name_of_season_winner(data, season)
-  winner_name = nil
   data[season].each do |person_hash|
-    next unless data[season] = season
    if person_hash["status"] = "Winner"
      winner_name = person_hash["name"]
    end
  end
- winner_name
  end
 
 
