@@ -1,5 +1,6 @@
 def get_first_name_of_season_winner(data, season)
-  data.each do |
+  data.each do |szn, person_hash|
+    
 end
 
 def get_contestant_name(data, occupation)
