@@ -46,6 +46,6 @@ def get_average_age_for_season(data, season)
     next unless data[season] == season
     total_age += person_hash[:age]
   end
-  avg_age = total_age / 
-    
+  avg_age = total_age / person_hash.length
+end
 end
