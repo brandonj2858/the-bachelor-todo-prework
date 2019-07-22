@@ -19,7 +19,15 @@ end
  
 
 def count_contestants_by_hometown(data, hometown)
+  hometown_counter = 0
   data.each do |szn, person_hash|
+    person_hash.each do |person_hash|
+      if person_hash["hometown"] == hometown
+        hometown_counter +=1
+      end
+    end
+  end
+  hometown_counter
 end
 
 def get_occupation(data, hometown)
